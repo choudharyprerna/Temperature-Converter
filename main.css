@@ -13,7 +13,7 @@ main{
 header{
     display: flex;
     justify-content: center;
-    padding-top: 200px;
+    padding-top: 130px;
 }
 
 h1{
@@ -44,4 +44,15 @@ h1{
 
 .input:focus{
     box-shadow: 0px 0px 6px 1px rgba(0, 0, 0, 0.2);
+}
+
+.labels{
+    flex: 1 1 45%;
+    margin: 15px;
+    appearance: none;
+    background: none;
+    padding: 15px;
+    border: none;
+    outline: none;
+    transition: 0.4s;
 }
